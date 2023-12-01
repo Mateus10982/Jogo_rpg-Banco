@@ -1,0 +1,60 @@
+
+
+@media only screen and (min-width: 701px) { /*computador de mesa(tela grande)*/
+    .cabecalho{
+        position: fixed;
+           width: 100%;
+           height: 50px;
+           top: 0px;
+           background-color:  blueviolet;
+           color: white;
+           display: flex;
+           z-index: 1;
+           align-items: center;
+           justify-content: space-around;
+       }
+       .link{
+           position: relative;
+           margin-left: 19%;
+           color: aliceblue;
+           text-decoration: none;
+       }
+       .link:hover{
+           color: rgb(185, 214, 240);
+           background-color: rgb(43, 9, 75);
+           border-radius: 5px;
+           font-size: 22px;
+       }
+    }    
+    @media only screen and (max-width: 700px) { /*celular*/
+        .cabecalho{
+            position: fixed;
+               width: 99%;
+               height: 7%;
+               top: 0px;
+               background-color:  blueviolet;
+               color: white;
+               display: flex;
+               z-index: 1;
+               align-items: center;
+               justify-content: space-around;
+           }
+           nav{
+            position: absolute;
+            left: 29%;
+            margin-top: 2%;
+            
+           }
+           .link{
+               position: relative;
+               margin-left: 19%;
+               color: aliceblue;
+               text-decoration: none;
+           }
+           .link:hover{
+               color: rgb(185, 214, 240);
+               background-color: rgb(43, 9, 75);
+               border-radius: 5px;
+               font-size: 22px;
+           }
+       }

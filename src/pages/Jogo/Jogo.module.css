@@ -1,0 +1,235 @@
+
+@media only screen and (min-width: 1102px) { /*computador de mesa(tela grande)*/
+    .central{
+        position: relative;
+        top: 5%;
+        margin-top: 10px;
+        /*border: 1px #0000ff solid;*/
+        background-color: rgb(48, 14, 56);
+    }
+    .localcard{
+        position: relative;
+        top: 5%;
+        margin-top: 5px;
+        border: 1px #060608 solid;
+        background-color: rgb(48, 14, 56);
+    }
+    .lista{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-block: 1rem;
+    }
+    .label{
+        position: relative;
+        width: 50%;
+        height:auto;
+        border: 2px rgb(45, 45, 112) solid;
+        color: aliceblue;
+        background-color: rgb(32, 4, 44);
+        border-radius: 5px;
+        }
+        .input{
+        position: relative;
+        width: 59%;
+        border: 2px rgb(45, 45, 112) solid;
+        color: aliceblue;
+        background-color: rgb(32, 4, 44);
+        border-radius: 5px;
+        text-align: center;
+        float: left;
+        }
+        .sec{
+            position: relative;
+            width: 50% ;
+            left: 35%;
+            height: 50%;
+            margin-top: 10px;
+            overflow-y: auto;
+            overflow-x: hidden;
+
+        }    
+        ul{
+            padding: 0%;
+        }
+        li{
+            margin-top: 2px;
+            padding: 0%;
+            text-align: left;
+        }
+        .button{
+            position: relative;
+            height: 30px;
+            margin-top: 9%;
+            margin-left:16%;
+            border: 2px rgb(45, 45, 112) solid;
+            color: aliceblue;
+            background-color: rgb(32, 4, 44);
+            border-radius: 5px;
+            cursor: pointer;
+            }
+    p{
+        color:aliceblue;
+    }
+    }
+    @media only screen and (max-width: 1100px) {/*notebook*/
+        .central{
+            position: relative;
+            top: 5%;
+            margin-top: 10px;
+            /*border: 1px #0000ff solid;*/
+            background-color: rgb(48, 14, 56);
+        }
+        .localcard{
+            position: relative;
+            top: 5%;
+            margin-top: 5px;
+            border: 1px #060608 solid;
+            background-color: rgb(48, 14, 56);
+        }
+        .lista{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-block: 1rem;
+        }
+        .label{
+            position: relative;
+            width: 50%;
+            height:auto;
+            border: 2px rgb(45, 45, 112) solid;
+            color: aliceblue;
+            background-color: rgb(32, 4, 44);
+            border-radius: 5px;
+            }
+            .input{
+            position: relative;
+            width: 59%;
+            border: 2px rgb(45, 45, 112) solid;
+            color: aliceblue;
+            background-color: rgb(32, 4, 44);
+            border-radius: 5px;
+            text-align: center;
+            float: left;
+            }
+            .sec{
+                position: relative;
+                width: 60% ;
+                left: 30%;
+                height: 40%;
+                margin-top: 10px;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }    
+            ul{
+                padding: 0%;
+            }
+            li{
+                margin-top: 2px;
+                padding: 0%;
+                text-align: left;
+            }
+            .button{
+                position: relative;
+                height: 20px;
+                margin-top: 9%;
+                margin-left:7%;
+                border: 2px rgb(45, 45, 112) solid;
+                color: aliceblue;
+                background-color: rgb(32, 4, 44);
+                border-radius: 5px;
+                cursor: pointer;
+                }
+        p{
+            color:aliceblue;
+        }
+        }
+        
+    @media only screen and (max-width: 700px) { /*celular*/
+        .central{
+            position: relative;
+            width: 100%;
+            top: 0%;
+            margin-top: 5px;
+            /*border: 1px #0000ff solid;*/
+            background-color: rgb(48, 14, 56);
+        }
+        .localcard{
+            position: relative;
+            width: 100%;
+            top: 0%;
+            margin-top: 5px;
+            border: 1px #060608 solid;
+            background-color: rgb(48, 14, 56);
+        }
+        .lista{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-block: 1rem;
+        }
+        .label{
+            position: relative;
+            width: 40%;
+            height:auto;
+            border: 2px rgb(45, 45, 112) solid;
+            color: aliceblue;
+            background-color: rgb(32, 4, 44);
+            border-radius: 5px;
+            }
+            .input{
+            position: relative;
+            width: 80%;
+            border: 2px rgb(45, 45, 112) solid;
+            color: aliceblue;
+            background-color: rgb(32, 4, 44);
+            border-radius: 5px;
+            text-align: center;
+            float: left;
+            }
+            .sec{
+                position: relative;
+                width: 100%;
+                left: 0%;
+                height: 40%;
+                margin-top: 10px;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }    
+            ul{
+                position: relative;
+                width: 100%;
+                left: 5%;
+                padding: 0%;
+            }
+            li{
+                margin-top: 2px;
+                padding: 0%;
+                text-align: left;
+            }
+            .button{
+                position: relative;
+                margin-top: 2%;
+                margin-left:3%;
+                border: 2px rgb(45, 45, 112) solid;
+                color: aliceblue;
+                background-color: rgb(32, 4, 44);
+                border-radius: 5px;
+                cursor: pointer;
+                }
+        p{
+            color:aliceblue;
+            font-size: 100%;
+            height: 30px;
+            word-wrap: break-word;
+        }
+       }
